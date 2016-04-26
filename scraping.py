@@ -30,6 +30,9 @@ record1 = SeqRecord(oxytocin, id= "fam")
 record2 = SeqRecord(oxytocin, id= "fam")
 
 print(record1.seq == record2.seq)
+
+my_file = open("example.fasta", "w")
+my_file.write("oxt.fasta")
 #print(oxytocin.translate(table=2))
 
 #print(oxytocin)
