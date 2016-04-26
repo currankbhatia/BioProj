@@ -6,4 +6,8 @@ http://geneontology.org/
 http://www.ncbi.nlm.nih.gov/gene
 http://biopython.org/DIST/docs/tutorial/Tutorial.pdf
 
+http://rosalind.info/problems/frmt/
+
+
+
 
