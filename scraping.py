@@ -15,6 +15,13 @@ from Bio import AlignIO
 from Bio.Align import AlignInfo
 from Bio.SubsMat import FreqTable
 from Bio.Blast import NCBIWWW
+from Bio.Alphabet import generic_dna
+
+def get_accession_num(seq_record):
+    accession_atoms = seq_record.id.split('|')
+    gb_name = accession_atoms[3]
+    # strip the version info before returning
+    return gb_name[:-2]
 
 #iteratively explores a manually inputted sequence in fasta format
 for seq_rec in SeqIO.parse("oxt.fasta", "fasta"):
@@ -32,7 +39,7 @@ record2 = SeqRecord(oxytocin, id= "fam")
 print(record1.seq == record2.seq)
 
 my_file = open("example.fasta", "w")
-my_file.write("oxt.fasta")
+my_file.write(str(oxytocin))
 #print(oxytocin.translate(table=2))
 
 #print(oxytocin)
@@ -40,14 +47,15 @@ my_file.write("oxt.fasta")
 #print(my_seq)
 
 #finds frequency of GC pairings
-alignment = AlignIO.read("oxt.fasta", "fasta")
+my_file.close()
+#alignment = AlignIO.read("oxt.fasta", "fasta")
 
-print(str(alignment))
+#print(str(alignment))
 
-for record in alignment:
-	print("%s - %s" % (record.seq, record.id))
+#for record in alignment:
+#	print("%s - %s" % (record.seq, record.id))
 
-print(GC(oxytocin));
+#print(GC(oxytocin));
 print '\n';
 
 #goes through the fasta format to look through all fasta files (helpful if scraping a database and find multiple entries under one query)
@@ -57,3 +65,11 @@ first_record = next(record_iterator)
 print(first_record.id)
 print(first_record.description)
 print(repr(first_record.seq))
+
+rec_iterator = SeqIO.parse("oxt.fasta", "fasta", generic_dna)
+oxt_dict = SeqIO.to_dict(rec_iterator, get_accession_num)
+
+# for id_num in oxt_dict:
+#     print('id number: %s' % id_num)
+#     print('description: %s' % oxt_dict[id_num].description)
+#     print('sequence: %s' % oxt_dict[id_num].seq)
