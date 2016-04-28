@@ -65,7 +65,7 @@ def blast(db, sequence):
 	print('Doing the BLAST and retrieving the results...')
 	# only need to input the pure sequence, but how to determine which databases to compare against?
 	try:
-		result_handle = NCBIWWW.qblast('blastp', 'nr', test)
+		result_handle = NCBIWWW.qblast('blastp', 'nr', sequence)
 		save = open("my_blast.xml","w")
 		save.write(hand.read())
 		save.close()
@@ -101,7 +101,13 @@ for seq_record in SeqIO.parse(fetched,"fasta"):
 if fetched != 0:
 	print(fetched.read())
 
-	
+	print "trying blast"
+	result_handle = NCBIWWW.qblast('blastp', 'nr', test)
+	save = open("my_blast.xml","w")
+	save.write(result_handle.read())
+	save.close()
+	result_handle.close()
+	print "going to helper method"
 	hand = blast(db,test)
 
 	print "done blasting"

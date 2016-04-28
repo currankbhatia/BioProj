@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_176573</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>126</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_176573</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>126</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|632960465|ref|XP_007896210.1|</Hit_id>
+  <Hit_def>PREDICTED: oxytocin-neurophysin 1-like [Callorhinchus milii] &gt;gi|224016238|gb|ACN32397.1| oxytocin precursor [Callorhinchus milii]</Hit_def>
+  <Hit_accession>XP_007896210</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.521</Hsp_bit-score>
+      <Hsp_score>641</Hsp_score>
+      <Hsp_evalue>3.73292e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFSSD</Hsp_qseq>
+      <Hsp_hseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFSSD</Hsp_hseq>
+      <Hsp_midline>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFSSD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|632960457|ref|XP_007896206.1|</Hit_id>
+  <Hit_def>PREDICTED: oxytocin-neurophysin 1-like isoform X1 [Callorhinchus milii]</Hit_def>
+  <Hit_accession>XP_007896206</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>1.86999e-57</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>FTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCN</Hsp_qseq>
+      <Hsp_hseq>FSSACYIQNCPRGGRRSAMEVTMRQCLPCGPDNRGRCFGPRICCGRDIGCYVGTAETLGCRGEDYLPSPCEPAGRPCGSERGKCASPGICCDDESCTVDSVCS</Hsp_hseq>
+      <Hsp_midline>F+ ACYIQNCP GG+RS M+  MRQCLPCGPD+RGRCFGPRICCGRDIGCYVGTAETLGCRGE+YLPSPCEPAGRPCGSERGKCASPGICCDDESC VD +C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|224016237|gb|ACN32396.1|</Hit_id>
+  <Hit_def>vasotocin precursor [Callorhinchus milii]</Hit_def>
+  <Hit_accession>ACN32396</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>5.07456e-57</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>FTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCN</Hsp_qseq>
+      <Hsp_hseq>FSSACYIQNCPRGGRRSAMEVTMRQCLPCGPDNRGRCFGPRICCGRDIGCYVGTAETLGCRGEDYLPSPCEPAGRPCGSERGKCASPGICCDDESCTVDSVCS</Hsp_hseq>
+      <Hsp_midline>F+ ACYIQNCP GG+RS M+  MRQCLPCGPD+RGRCFGPRICCGRDIGCYVGTAETLGCRGE+YLPSPCEPAGRPCGSERGKCASPGICCDDESC VD +C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|632960459|ref|XP_007896207.1|</Hit_id>
+  <Hit_def>PREDICTED: oxytocin-neurophysin 1-like isoform X2 [Callorhinchus milii]</Hit_def>
+  <Hit_accession>XP_007896207</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>3.65934e-56</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>FTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCN</Hsp_qseq>
+      <Hsp_hseq>WIKSCYIQNCPRGGRRSAMEVTMRQCLPCGPDNRGRCFGPRICCGRDIGCYVGTAETLGCRGEDYLPSPCEPAGRPCGSERGKCASPGICCDDESCTVDSVCS</Hsp_hseq>
+      <Hsp_midline>+  +CYIQNCP GG+RS M+  MRQCLPCGPD+RGRCFGPRICCGRDIGCYVGTAETLGCRGE+YLPSPCEPAGRPCGSERGKCASPGICCDDESC VD +C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|598121|gb|AAA74284.1|</Hit_id>
+  <Hit_def>isotocin/neurophysin [Torpedo marmorata]</Hit_def>
+  <Hit_accession>AAA74284</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.104</Hsp_bit-score>
+      <Hsp_score>453</Hsp_score>
+      <Hsp_evalue>1.38836e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFSSD</Hsp_qseq>
+      <Hsp_hseq>MHSACLTVGFLCLVSFSTACYISNCPIGGKRSIMDMEIRQCLPCGPRNRGQCFGTSICCGEEIGCYFGTSETLRCQKEVYLPSPCEPTGRLCGRNGGKCATSGTCCTAESCTVDPTCDTRTIFSSD</Hsp_hseq>
+      <Hsp_midline>MHSACL +  LCLV F+ ACYI NCP+GGKRSIMD ++RQCLPCGP +RG+CFG  ICCG +IGCY GT+ETL C+ E YLPSPCEP GR CG   GKCA+ G CC  ESC VDP C+ RT FSSD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|50080121|dbj|BAD27478.1|</Hit_id>
+  <Hit_def>phasitocin precursor [Triakis scyllium]</Hit_def>
+  <Hit_accession>BAD27478</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>3.90624e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFSSD</Hsp_qseq>
+      <Hsp_hseq>MQSACLAVSLFCLVSFSRACYFNNCPIGGKRSVMNSEIRQCMQCGPENKGHCFGPRICCGERFGCYIGTAETVKCEKENYIFSPCEPIGRSCGKEGGKCASSGVCCTDQNCAMDTACDTNNIYSSN</Hsp_hseq>
+      <Hsp_midline>M SACLA+ L CLV F+ ACY  NCP+GGKRS+M++++RQC+ CGP+++G CFGPRICCG   GCY+GTAET+ C  ENY+ SPCEP GR CG E GKCAS G+CC D++CA+D  C+    +SS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|50080119|dbj|BAD27477.1|</Hit_id>
+  <Hit_def>asvatocin precursor [Triakis scyllium]</Hit_def>
+  <Hit_accession>BAD27477</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.4</Hsp_bit-score>
+      <Hsp_score>433</Hsp_score>
+      <Hsp_evalue>1.43826e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFSSD</Hsp_qseq>
+      <Hsp_hseq>MQSACLAVYLFCLVSLSAACYINNCPVGGKRSLMNREIRQCMPCGPGNRGHCFGANICCGEDIGCHIGTSETLMCQKEDYLLSPCEPTGRACGRNGGKCASSGICCTEQSCAMDLTCDIRTIYASD</Hsp_hseq>
+      <Hsp_midline>M SACLA+ L CLV  + ACYI NCP+GGKRS+M+ ++RQC+PCGP +RG CFG  ICCG DIGC++GT+ETL C+ E+YL SPCEP GR CG   GKCAS GICC ++SCA+D  C++RT ++SD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|2696873|dbj|BAA24027.1|</Hit_id>
+  <Hit_def>prepro-[Phe]mesotocin [Neoceratodus forsteri]</Hit_def>
+  <Hit_accession>BAA24027</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.318</Hsp_bit-score>
+      <Hsp_score>425</Hsp_score>
+      <Hsp_evalue>2.20122e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTF</Hsp_qseq>
+      <Hsp_hseq>MSSASIPICLICLFAFTSACFIQNCPIGGKRSVLDTDLRKCISCGPGNRGRCFGPSICCGEELGCFFGTTEALRCQEENYWPSPCQSGGKPCGSEGGRCAAPGICCSDESCSVDSTCNQDVLF</Hsp_hseq>
+      <Hsp_midline>M SA + +CL+CL  FT AC+IQNCP+GGKRS++DT +R+C+ CGP +RGRCFGP ICCG ++GC+ GT E L C+ ENY PSPC+  G+PCGSE G+CA+PGICC DESC+VD  CN    F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|557010829|ref|XP_006006073.1|</Hit_id>
+  <Hit_def>PREDICTED: mesotocin-neurophysin MT-like [Latimeria chalumnae] &gt;gi|166987262|gb|ABZ04536.1| mesotocin precursor [Latimeria menadoensis]</Hit_def>
+  <Hit_accession>XP_006006073</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>2.59017e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFS</Hsp_qseq>
+      <Hsp_hseq>MSCTSISLCFICLCALTSACYIQNCPIGGKRSVLDAEIRKCIPCGPGNRGQCFGPNICCGEEFGCYFGTSETQRCLEENYLPSPCEAGGKPCGTNGARCAAPGICCSDESCTLDSACNLEFVFS</Hsp_hseq>
+      <Hsp_midline>M    ++LC +CL   T ACYIQNCP+GGKRS++D ++R+C+PCGP +RG+CFGP ICCG + GCY GT+ET  C  ENYLPSPCE  G+PCG+   +CA+PGICC DESC +D  CN+   FS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|194686845|dbj|BAG66061.1|</Hit_id>
+  <Hit_def>prepro-vasotocin [Protopterus annectens]</Hit_def>
+  <Hit_accession>BAG66061</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>4.46996e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MPGICLQLCFLCLVAFSSACYIQNCPRGGKRSFLDTEIRQCMSCGPRSRGHCFGPYICCGEEFGCYVGTAETLRCLEENYLPSPCEAGGRPCSVNGGRCATAGICCTDESCAMDSSC</Hsp_hseq>
+      <Hsp_midline>M   CL LC LCLV F+ ACYIQNCP GGKRS +DT++RQC+ CGP  RG CFGP ICCG + GCYVGTAETL C  ENYLPSPCE  GRPC    G+CA+ GICC DESCA+D  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|301613841|ref|XP_002936405.1|</Hit_id>
+  <Hit_def>PREDICTED: oxytocin-neurophysin 1 [Xenopus tropicalis]</Hit_def>
+  <Hit_accession>XP_002936405</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.614</Hsp_bit-score>
+      <Hsp_score>405</Hsp_score>
+      <Hsp_evalue>2.49439e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDT-QMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFS</Hsp_qseq>
+      <Hsp_hseq>MTYSTLAACLFCLLALTSACYIQNCPIGGKRSVMDIMDIRKCIPCGPRNKGHCFGPNICCGEELGCYVGTSETLRCQEENYLPSPCESGRKPCGNNGGNCAASGICCNHESCTVDPACEQDSVFS</Hsp_hseq>
+      <Hsp_midline>M  + LA CL CL+  T ACYIQNCP+GGKRS+MD   +R+C+PCGP ++G CFGP ICCG ++GCYVGT+ETL C+ ENYLPSPCE   +PCG+  G CA+ GICC+ ESC VDP C   + FS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|145687902|gb|ABP88923.1|</Hit_id>
+  <Hit_def>prepro-val4 mesotocin [Plethodon shermani]</Hit_def>
+  <Hit_accession>ABP88923</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>5.07531e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSI---MDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFS</Hsp_qseq>
+      <Hsp_hseq>MTYSAVALCFFCLLAFSSACYIVNCPIGGKRSVLDVMDLQIRKCIPCGPRNKGHCFGPNICCGDELGCFVGTSETLKCQKENYLPSPCESGWKPCGSNGGRCAAPGICCSNESCTVDQGCEQESFFT</Hsp_hseq>
+      <Hsp_midline>M  + +ALC  CL+ F+ ACYI NCP+GGKRS+   MD Q+R+C+PCGP ++G CFGP ICCG ++GC+VGT+ETL C+ ENYLPSPCE   +PCGS  G+CA+PGICC +ESC VD  C   + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|50080117|dbj|BAD27476.1|</Hit_id>
+  <Hit_def>vasotocin precursor [Triakis scyllium]</Hit_def>
+  <Hit_accession>BAD27476</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>1.62825e-46</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>FTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>FTSACYIQNCPRGGKRSFLDTGVRQCMTCGPQNRGHCFGANICCGEEIGCYIGTSETLRCQEENYLPSPCEPAGRPCGRNSGKCASPGICCTDETCATDSTC</Hsp_hseq>
+      <Hsp_midline>FT ACYIQNCP GGKRS +DT +RQC+ CGP +RG CFG  ICCG +IGCY+GT+ETL C+ ENYLPSPCEPAGRPCG   GKCASPGICC DE+CA D  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|194686847|dbj|BAG66062.1|</Hit_id>
+  <Hit_def>prepro-mesotocin [Protopterus annectens]</Hit_def>
+  <Hit_accession>BAG66062</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.303</Hsp_bit-score>
+      <Hsp_score>399</Hsp_score>
+      <Hsp_evalue>2.02339e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFS</Hsp_qseq>
+      <Hsp_hseq>MPSFSLPICLICLIAYTSACYIQNCPIGGKRSVVETDLRKCLPCGPGNAGQCFGPSICCGEELGCFFGTAETLKCQKEIYWPSPCQSGGKRCGSEGGRCAAPGICCSDVSCTLDSTCDKEAMFA</Hsp_hseq>
+      <Hsp_midline>M S  L +CL+CL+ +T ACYIQNCP+GGKRS+++T +R+CLPCGP + G+CFGP ICCG ++GC+ GTAETL C+ E Y PSPC+  G+ CGSE G+CA+PGICC D SC +D  C+    F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|557275541|ref|XP_006020969.1|</Hit_id>
+  <Hit_def>PREDICTED: vasotocin-neurophysin VT-like [Alligator sinensis]</Hit_def>
+  <Hit_accession>XP_006020969</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>3.76545e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MPEASLPVYFLCLLALSSACYIQNCPRGGKRAFPDTEIRQCMPCGPGNRGSCFGPNICCGEELGCYVGTAETLRCVEENYLPSPCETGGKACGA-GGRCAAPGICCSDESCAMDPVC</Hsp_hseq>
+      <Hsp_midline>M  A L +  LCL+  + ACYIQNCP GGKR+  DT++RQC+PCGP +RG CFGP ICCG ++GCYVGTAETL C  ENYLPSPCE  G+ CG+  G+CA+PGICC DESCA+DP+C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|145687900|gb|ABP88922.1|</Hit_id>
+  <Hit_def>prepro-vasotocin [Plethodon shermani]</Hit_def>
+  <Hit_accession>ABP88922</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>5.20885e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MPEASLPACFLCLLALSSACYIQNCPRGGKRSFPDTDVRQCIPCGPGNRGRCFGPNICCGEEMGCFIGTSETLHCVEENYLPSPCEAGGKPC-SVDGKCAAPGICCSDESCTLDSSC</Hsp_hseq>
+      <Hsp_midline>M  A L  C LCL+  + ACYIQNCP GGKRS  DT +RQC+PCGP +RGRCFGP ICCG ++GC++GT+ETL C  ENYLPSPCE  G+PC S  GKCA+PGICC DESC +D  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|642124634|emb|CDQ62062.1|</Hit_id>
+  <Hit_def>unnamed protein product [Oncorhynchus mykiss]</Hit_def>
+  <Hit_accession>CDQ62062</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>7.90371e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFSS</Hsp_qseq>
+      <Hsp_hseq>MPHSTLLLCVIGLLAFSSACYIQNCPRGGKRALQDTGIRQCMTCGPGDQGRCFGPSICCGEGLGCWMGSSETARCFEENYLPTPCQTGGRPCGSDAGRCAAPGVCCDSESCFLDPDCLSESQYHS</Hsp_hseq>
+      <Hsp_midline>M  + L LC++ L+ F+ ACYIQNCP GGKR++ DT +RQC+ CGP D+GRCFGP ICCG  +GC++G++ET  C  ENYLP+PC+  GRPCGS+ G+CA+PG+CCD ESC +DP C   + + S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|530595992|ref|XP_005291548.1|</Hit_id>
+  <Hit_def>PREDICTED: oxytocin-neurophysin 1 [Chrysemys picta bellii]</Hit_def>
+  <Hit_accession>XP_005291548</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>9.42231e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFS</Hsp_qseq>
+      <Hsp_hseq>MSQNTLAICVLWFLALSSACYIQNCPIGGKRSVLDMDVRKCIPCGPRNKGHCFGPSICCGAEMGCYFGTSETLRCQEENYLPTPCESGRKPCGPNGGTCAAPGICCNNEGCMVDSACDQESLFS</Hsp_hseq>
+      <Hsp_midline>M    LA+C+L  +  + ACYIQNCP+GGKRS++D  +R+C+PCGP ++G CFGP ICCG ++GCY GT+ETL C+ ENYLP+PCE   +PCG   G CA+PGICC++E C VD  C+  + FS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|950956718|ref|XP_006278014.2|</Hit_id>
+  <Hit_def>PREDICTED: vasotocin-neurophysin VT-like [Alligator mississippiensis] &gt;gi|1011578763|gb|KYO29525.1| vasotocin-neurophysin VT precursor [Alligator mississippiensis]</Hit_def>
+  <Hit_accession>XP_006278014</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>1.04077e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MPEASLPVYFLCLLALSSACYIQNCPRGGKRAFPDTEIRQCMPCGPGNRGNCFGPNICCGEELGCYVGTAETLRCVEENYLPSPCETGGKACGA-GGRCAAPGICCSDESCTMDPVC</Hsp_hseq>
+      <Hsp_midline>M  A L +  LCL+  + ACYIQNCP GGKR+  DT++RQC+PCGP +RG CFGP ICCG ++GCYVGTAETL C  ENYLPSPCE  G+ CG+  G+CA+PGICC DESC +DP+C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|557010832|ref|XP_006006074.1|</Hit_id>
+  <Hit_def>PREDICTED: vasotocin-neurophysin VT-like [Latimeria chalumnae] &gt;gi|166987261|gb|ABZ04535.1| vasotocin precursor [Latimeria menadoensis]</Hit_def>
+  <Hit_accession>XP_006006074</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>1.19375e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MPEVSLPVCFLCLLALSSACYIQNCPRGGKRSFTDTDIRQCIPCGSGSRGQCFGPNICCGEEFGCYFGTSETQRCLEENYLPSPCEAGGKPCGTNGARCAAPGICCSDDSCSVDPAC</Hsp_hseq>
+      <Hsp_midline>M    L +C LCL+  + ACYIQNCP GGKRS  DT +RQC+PCG   RG+CFGP ICCG + GCY GT+ET  C  ENYLPSPCE  G+PCG+   +CA+PGICC D+SC+VDP C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|557275503|ref|XP_006020953.1|</Hit_id>
+  <Hit_def>PREDICTED: neurophysin 1 [Alligator sinensis]</Hit_def>
+  <Hit_accession>XP_006020953</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>1.34738e-44</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>HSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFS</Hsp_qseq>
+      <Hsp_hseq>HSA-LVVCALCLLALSSACYIQNCPIGGKRSVLDMDIRKCLPCGPRNKGHCFGPSICCGEELGCYFGTSETLRCQEENYLPTPCESGRKPCGNTGGTCAAEGICCSNEGCMMDSSCDQASMFS</Hsp_hseq>
+      <Hsp_midline>HSA L +C LCL+  + ACYIQNCP+GGKRS++D  +R+CLPCGP ++G CFGP ICCG ++GCY GT+ETL C+ ENYLP+PCE   +PCG+  G CA+ GICC +E C +D  C+  + FS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|950956722|ref|XP_014452590.1|</Hit_id>
+  <Hit_def>PREDICTED: neurophysin 1 [Alligator mississippiensis] &gt;gi|1011578761|gb|KYO29523.1| neurophysin 1 [Alligator mississippiensis]</Hit_def>
+  <Hit_accession>XP_014452590</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>1.51797e-44</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>HSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFS</Hsp_qseq>
+      <Hsp_hseq>HSA-LAVCALCLLALSSACYIQNCPIGGKRSVLDMDIRKCLPCGPRNKGHCFGPSICCGEELGCYFGTSETLRCQEENYLPTPCESGRKPCGNTGGTCAAEGICCSYEGCMMDSSCDQASMFS</Hsp_hseq>
+      <Hsp_midline>HSA LA+C LCL+  + ACYIQNCP+GGKRS++D  +R+CLPCGP ++G CFGP ICCG ++GCY GT+ETL C+ ENYLP+PCE   +PCG+  G CA+ GICC  E C +D  C+  + FS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|149479715|ref|XP_001518814.1|</Hit_id>
+  <Hit_def>PREDICTED: vasopressin-neurophysin 2-copeptin [Ornithorhynchus anatinus]</Hit_def>
+  <Hit_accession>XP_001518814</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>4.67902e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MPDATLPTCFLCLLALASACYFQNCPRGGKRTLPDSEPRQCLPCGPGGKGRCFGPNICCGEELGCYVGTAEALRCQEENYLPSPCQAGHRPCGRDGGTCAAPGICCSDESCAMDQSC</Hsp_hseq>
+      <Hsp_midline>M  A L  C LCL+    ACY QNCP GGKR++ D++ RQCLPCGP  +GRCFGP ICCG ++GCYVGTAE L C+ ENYLPSPC+   RPCG + G CA+PGICC DESCA+D  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|632960461|ref|XP_007896208.1|</Hit_id>
+  <Hit_def>PREDICTED: neurophysin 1-like isoform X3 [Callorhinchus milii]</Hit_def>
+  <Hit_accession>XP_007896208</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>5.08482e-44</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>GKRS---IMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCN</Hsp_qseq>
+      <Hsp_hseq>GKRSGASLFTGVAFECLPCGPDNRGRCFGPRICCGRDIGCYVGTAETLGCRGEDYLPSPCEPAGRPCGSERGKCASPGICCDDESCTVDSVCS</Hsp_hseq>
+      <Hsp_midline>GKRS   +      +CLPCGPD+RGRCFGPRICCGRDIGCYVGTAETLGCRGE+YLPSPCEPAGRPCGSERGKCASPGICCDDESC VD +C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|128084|sp|P16042.1|NEU4_ONCKE</Hit_id>
+  <Hit_def>RecName: Full=Vasotocin-neurophysin VT 2; Contains: RecName: Full=Vasotocin; Short=VT; Contains: RecName: Full=Neurophysin VT 2; Flags: Precursor &gt;gi|64166|emb|CAA35206.1| pre-pro-polypeptide [Oncorhynchus keta] &gt;gi|44917004|dbj|BAD12144.1| vasotocin [Oncorhynchus keta]</Hit_def>
+  <Hit_accession>P16042</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>6.26268e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFSS</Hsp_qseq>
+      <Hsp_hseq>MPHSTLLLCVIGLLAFSSACYIQNCPRGGKRALQDTGIRQCMTCGPGDQGHCFGPSICCGEGLGCWMGSPETARCFEENYLPTPCQTGGRPCGSDAGRCAAPGVCCDSESCVLDPDCLSESRYHS</Hsp_hseq>
+      <Hsp_midline>M  + L LC++ L+ F+ ACYIQNCP GGKR++ DT +RQC+ CGP D+G CFGP ICCG  +GC++G+ ET  C  ENYLP+PC+  GRPCGS+ G+CA+PG+CCD ESC +DP C   + + S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|944211575|gb|KQK78308.1|</Hit_id>
+  <Hit_def>oxytocin-neurophysin 1 [Amazona aestiva]</Hit_def>
+  <Hit_accession>KQK78308</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>1.11474e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFS</Hsp_qseq>
+      <Hsp_hseq>MAEPSLPLSFLCLLALSSACYIQNCPRGGKRALSDTALRQCLPCGPRNKGRCFGPNICCGEELGCYLGTSETLRCQEETFLPTPCEAGHKPCGSGGGTCAAPGICCGTEGCLLDSSCDQETLFA</Hsp_hseq>
+      <Hsp_midline>M    L L  LCL+  + ACYIQNCP GGKR++ DT +RQCLPCGP ++GRCFGP ICCG ++GCY+GT+ETL C+ E +LP+PCE   +PCGS  G CA+PGICC  E C +D  C+  T F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|530595990|ref|XP_005291547.1|</Hit_id>
+  <Hit_def>PREDICTED: vasopressin-neurophysin 2-copeptin [Chrysemys picta bellii]</Hit_def>
+  <Hit_accession>XP_005291547</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>1.76827e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MPKTSLPVHFLCLLAMSSACYIQNCPRGGKRALPDTEIRQCIPCGPGNRGHCFGPNICCGEELGCYVGTSETLRCVEENYLPSPCEAGGKAC-SSGGKCAAPGICCNDESCTMDTIC</Hsp_hseq>
+      <Hsp_midline>M    L +  LCL+  + ACYIQNCP GGKR++ DT++RQC+PCGP +RG CFGP ICCG ++GCYVGT+ETL C  ENYLPSPCE  G+ C S  GKCA+PGICC+DESC +D +C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|145687896|gb|ABP88920.1|</Hit_id>
+  <Hit_def>prepro-vasotocin [Taricha granulosa]</Hit_def>
+  <Hit_accession>ABP88920</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>1.78749e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MPEASLAACFLCLLALSSACYIQNCPRGGKRSFPDTDVRECIPCGPGNRGRCFGPNICCGEDLGCYIGTSETMRCVEENYLPSPCEAEGKSC-SVDGKCAAPGICCSDVSCTLDGSC</Hsp_hseq>
+      <Hsp_midline>M  A LA C LCL+  + ACYIQNCP GGKRS  DT +R+C+PCGP +RGRCFGP ICCG D+GCY+GT+ET+ C  ENYLPSPCE  G+ C S  GKCA+PGICC D SC +D  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|126332324|ref|XP_001377168.1|</Hit_id>
+  <Hit_def>PREDICTED: vasopressin-neurophysin 2-copeptin-like [Monodelphis domestica]</Hit_def>
+  <Hit_accession>XP_001377168</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>1.98912e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MPGTALPACFFCLLAFTSACYFQNCPRGGKRGLADTELRQCLPCGPGSKGRCFGPSICCGEELGCYMGTAESLRCQEESYLPSPCQSGQKPCGN-GGRCAAPGICCNDENCMMEPAC</Hsp_hseq>
+      <Hsp_midline>M    L  C  CL+ FT ACY QNCP GGKR + DT++RQCLPCGP  +GRCFGP ICCG ++GCY+GTAE+L C+ E+YLPSPC+   +PCG+  G+CA+PGICC+DE+C ++P C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|213511983|ref|NP_001134889.1|</Hit_id>
+  <Hit_def>sialidase-4 precursor [Salmo salar] &gt;gi|209736902|gb|ACI69320.1| Vasotocin-neurophysin VT 2 precursor [Salmo salar]</Hit_def>
+  <Hit_accession>NP_001134889</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>3.87852e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFSS</Hsp_qseq>
+      <Hsp_hseq>MPHSTLLLCVIGLLAFSSACYIQNCPRGGKRALQDTGSRQCMTCGPGDQGRCFGPSICCGEGLGCWMGSSETARCFEENYLPTPCQTGGRPCGSDAGHCAATGVCCDSESCVLDPDCLGESRYHS</Hsp_hseq>
+      <Hsp_midline>M  + L LC++ L+ F+ ACYIQNCP GGKR++ DT  RQC+ CGP D+GRCFGP ICCG  +GC++G++ET  C  ENYLP+PC+  GRPCGS+ G CA+ G+CCD ESC +DP C   + + S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|126332328|ref|XP_001377217.1|</Hit_id>
+  <Hit_def>PREDICTED: vasopressin-neurophysin 2-copeptin-like [Monodelphis domestica]</Hit_def>
+  <Hit_accession>XP_001377217</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>5.96714e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRT</Hsp_qseq>
+      <Hsp_hseq>MPDARLLACFLCLLTFTSACYFQNCPKGGKRSLSDTEMRQCLSCGPGSKGRCFGPSICCGEELGCYMGTAESRRCQEESYLPSPCQSGQKSCGSG-GRCAAAGICCNDESCMVEPACWEDT</Hsp_hseq>
+      <Hsp_midline>M  A L  C LCL+ FT ACY QNCP GGKRS+ DT+MRQCL CGP  +GRCFGP ICCG ++GCY+GTAE+  C+ E+YLPSPC+   + CGS  G+CA+ GICC+DESC V+P C   T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|301613839|ref|XP_002936404.1|</Hit_id>
+  <Hit_def>PREDICTED: vasopressin-neurophysin 2-copeptin [Xenopus tropicalis]</Hit_def>
+  <Hit_accession>XP_002936404</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>6.68091e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MPEASVPACFLCLLALSSACYIQNCPRGGKRSYPDTELRQCMQCGPGNRGNCFGPNICCGEDMGCYIGTPETLRCVEENFVPSPCEAGGRPC-STGGRCAAPGICCNDESCSLDSAC</Hsp_hseq>
+      <Hsp_midline>M  A +  C LCL+  + ACYIQNCP GGKRS  DT++RQC+ CGP +RG CFGP ICCG D+GCY+GT ETL C  EN++PSPCE  GRPC S  G+CA+PGICC+DESC++D  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|532691818|ref|NP_001269182.1|</Hit_id>
+  <Hit_def>vasopressin-neurophysin 2-copeptin precursor [Microtus ochrogaster] &gt;gi|82749744|gb|ABB89756.1| arginine vasopressin [Microtus ochrogaster] &gt;gi|306922547|gb|ADN07439.1| arginine vasopressin [Microtus ochrogaster]</Hit_def>
+  <Hit_accession>NP_001269182</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>8.33995e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MLNSTLSACFLSLLAFTSACYFQNCPRGGKRAMPDMELRQCLPCGPGDQGRCFGPNICCADELGCFVGTAEALRCQEENYLPSPCQSGQKPCGSG-GRCAAAGICCSDESCVTDPEC</Hsp_hseq>
+      <Hsp_midline>M ++ L+ C L L+ FT ACY QNCP GGKR++ D ++RQCLPCGP D+GRCFGP ICC  ++GC+VGTAE L C+ ENYLPSPC+   +PCGS  G+CA+ GICC DESC  DP C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1012006298|ref|XP_016008745.1|</Hit_id>
+  <Hit_def>PREDICTED: vasopressin-neurophysin 2-copeptin [Rousettus aegyptiacus]</Hit_def>
+  <Hit_accession>XP_016008745</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>1.24082e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MPNAMLPACFLSLLAFTAACYFQNCPRGGKRAMSDLELRQCLPCGPGGKGRCFGPSICCGDELGCFVGTAEALRCQEENYLPSPCQSGQKPCGSG-GRCAAAGICCNDESCVTEPEC</Hsp_hseq>
+      <Hsp_midline>M +A L  C L L+ FT ACY QNCP GGKR++ D ++RQCLPCGP  +GRCFGP ICCG ++GC+VGTAE L C+ ENYLPSPC+   +PCGS  G+CA+ GICC+DESC  +P C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|306922555|gb|ADN07446.1|</Hit_id>
+  <Hit_def>arginine vasopressin [Microtus ochrogaster]</Hit_def>
+  <Hit_accession>ADN07446</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>1.37055e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MLNSTLSACFLSLLAFTSACYFQNCPRGGKRAMPDMELRQCLPCGPGDQGRCFGPNICCADELGCFVGTAEALRCQEENYLPSPCQSGQKPCGSG-GRCAAAGICCSDESCVSDPEC</Hsp_hseq>
+      <Hsp_midline>M ++ L+ C L L+ FT ACY QNCP GGKR++ D ++RQCLPCGP D+GRCFGP ICC  ++GC+VGTAE L C+ ENYLPSPC+   +PCGS  G+CA+ GICC DESC  DP C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1002609257|ref|XP_015683992.1|</Hit_id>
+  <Hit_def>PREDICTED: vasotocin-neurophysin VT-like [Protobothrops mucrosquamatus]</Hit_def>
+  <Hit_accession>XP_015683992</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>1.71026e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MPAGVFAVSLFCLLTWSSACYIQNCPRGGKRSMPDAEIRQCIPCGPGNRGKCFGPNICCGEEMGCHFGTSETLRCLEENFLPSPCEAGGKPCGA-GGRCAAPGICCNDESCVSDVAC</Hsp_hseq>
+      <Hsp_midline>M +   A+ L CL+ ++ ACYIQNCP GGKRS+ D ++RQC+PCGP +RG+CFGP ICCG ++GC+ GT+ETL C  EN+LPSPCE  G+PCG+  G+CA+PGICC+DESC  D  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1008770880|ref|XP_006984600.2|</Hit_id>
+  <Hit_def>PREDICTED: vasopressin-neurophysin 2-copeptin isoform X2 [Peromyscus maniculatus bairdii]</Hit_def>
+  <Hit_accession>XP_006984600</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.85227e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFSSD</Hsp_qseq>
+      <Hsp_hseq>MLNATLSACFLSLLAFTSACYFQNCPRGGKRAMSDMELRQCLPCGPGGKGRCFGPNICCADELGCYVGTAEALRCQEENYLPSPCQSGQKPCGSG-GRCAAAGVCCSPDGCRMDPACDPESAFSEH</Hsp_hseq>
+      <Hsp_midline>M +A L+ C L L+ FT ACY QNCP GGKR++ D ++RQCLPCGP  +GRCFGP ICC  ++GCYVGTAE L C+ ENYLPSPC+   +PCGS  G+CA+ G+CC  + C +DP C+  + FS  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|28849917|ref|NP_789824.1|</Hit_id>
+  <Hit_def>vasopressin-neurophysin 2-copeptin preproprotein [Bos taurus] &gt;gi|128079|sp|P01180.1|NEU2_BOVIN RecName: Full=Vasopressin-neurophysin 2-copeptin; AltName: Full=AVP-NPII; Contains: RecName: Full=Arg-vasopressin; AltName: Full=Arginine-vasopressin; Contains: RecName: Full=Neurophysin 2; AltName: Full=Neurophysin-II; Contains: RecName: Full=Copeptin; Flags: Precursor &gt;gi|590|emb|CAA23447.1| arg vasopressin-neurophysin II prepropeptide [Bos taurus] &gt;gi|163813|gb|AAA30806.1| vasopressin/neurophysin precursor [Bos taurus] &gt;gi|295773|emb|CAA25195.1| neuropolypeptide precursor [Bos taurus] &gt;gi|74268376|gb|AAI02898.1| Arginine vasopressin [Bos taurus] &gt;gi|296480988|tpg|DAA23103.1| TPA: vasopressin-neurophysin 2-copeptin precursor [Bos taurus] &gt;gi|223388|prf||0802184A vasopressin neurophysin precursor &gt;gi|223945|prf||1005247B vasopressin neurophysin II precursor</Hit_def>
+  <Hit_accession>NP_789824</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>2.08216e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTF</Hsp_qseq>
+      <Hsp_hseq>MPDATLPACFLSLLAFTSACYFQNCPRGGKRAMSDLELRQCLPCGPGGKGRCFGPSICCGDELGCFVGTAEALRCQEENYLPSPCQSGQKPCGSG-GRCAAAGICCNDESCVTEPECREGVGF</Hsp_hseq>
+      <Hsp_midline>M  A L  C L L+ FT ACY QNCP GGKR++ D ++RQCLPCGP  +GRCFGP ICCG ++GC+VGTAE L C+ ENYLPSPC+   +PCGS  G+CA+ GICC+DESC  +P C     F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|591385512|ref|XP_007067203.1|</Hit_id>
+  <Hit_def>PREDICTED: vasotocin-neurophysin VT-like [Chelonia mydas]</Hit_def>
+  <Hit_accession>XP_007067203</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>2.21264e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MPETLLPVPFLCLLALSSACYIQNCPRGGKRALPDTELRQCIPCGPGNRGNCFGPNICCGEELGCYVGTSETLRCVEENYLPSPCEAGGKAC-SSGGRCAAPGVCCNDESCTMDTIC</Hsp_hseq>
+      <Hsp_midline>M    L +  LCL+  + ACYIQNCP GGKR++ DT++RQC+PCGP +RG CFGP ICCG ++GCYVGT+ETL C  ENYLPSPCE  G+ C S  G+CA+PG+CC+DESC +D +C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|642064995|emb|CDQ89913.1|</Hit_id>
+  <Hit_def>unnamed protein product [Oncorhynchus mykiss]</Hit_def>
+  <Hit_accession>CDQ89913</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>2.56225e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MTGAAVFLCLFFLMSFCSACYISNCPIGGKRSVMDSPQRKCMLCGPGEQGRCFGPSICCGEGLGCWMGSPETARCMEENYLPTPCQAGGRPCGSEEGRCAAPGICCDSEGCSADQSC</Hsp_hseq>
+      <Hsp_midline>M  A + LCL  L+ F  ACYI NCP+GGKRS+MD+  R+C+ CGP ++GRCFGP ICCG  +GC++G+ ET  C  ENYLP+PC+  GRPCGSE G+CA+PGICCD E C+ D  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|929297525|ref|XP_014026120.1|</Hit_id>
+  <Hit_def>PREDICTED: isotocin-neurophysin IT 2 [Salmo salar] &gt;gi|929297527|ref|XP_014026121.1| PREDICTED: isotocin-neurophysin IT 2 [Salmo salar]</Hit_def>
+  <Hit_accession>XP_014026120</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>2.86448e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MTGAAVSVCLLYVLSVCSACYISNCPIGGKRSIMDAPQRKCMSCGPGEQGRCFGPSICCGEDVGCWMGSRETAHCMEENYLPTPCQAGGRPCGSDTARCAAPGVCCDSEGCSVDQSC</Hsp_hseq>
+      <Hsp_midline>M  A +++CLL ++    ACYI NCP+GGKRSIMD   R+C+ CGP ++GRCFGP ICCG D+GC++G+ ET  C  ENYLP+PC+  GRPCGS+  +CA+PG+CCD E C+VD  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|8571360|gb|AAF76847.1|AF228336_1</Hit_id>
+  <Hit_def>arginine vasotocin preprohormone [Typhlonectes natans]</Hit_def>
+  <Hit_accession>AAF76847</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>3.17784e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MPEALVPACFLCLLALSSACYIQNCPRGGKRSFPDTEVRECLSCGPGNRGNCFGPSICCGEEIGCYFGTSETLRCKEENYLPSPCESGWKSC-SRGGRCMSPGICCNDESCTVDSSC</Hsp_hseq>
+      <Hsp_midline>M  A +  C LCL+  + ACYIQNCP GGKRS  DT++R+CL CGP +RG CFGP ICCG +IGCY GT+ETL C+ ENYLPSPCE   + C S  G+C SPGICC+DESC VD  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|507555522|ref|XP_004661531.1|</Hit_id>
+  <Hit_def>PREDICTED: oxytocin-neurophysin 1 [Jaculus jaculus]</Hit_def>
+  <Hit_accession>XP_004661531</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>4.41542e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFSS</Hsp_qseq>
+      <Hsp_hseq>MPDTMLPACFLGLLAFTSACYFQNCPRGGKRAMSDLELRQCLPCGPDGKGRCFGPRICCGDELGCFVGTAEALRCQEENYLPSPCQSGQKPCGNG-GRCAAAGICCSPDGCRMDPACDPEAAFSE</Hsp_hseq>
+      <Hsp_midline>M    L  C L L+ FT ACY QNCP GGKR++ D ++RQCLPCGPD +GRCFGPRICCG ++GC+VGTAE L C+ ENYLPSPC+   +PCG+  G+CA+ GICC  + C +DP C+    FS </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|558231254|ref|XP_006139280.1|</Hit_id>
+  <Hit_def>PREDICTED: vasotocin-neurophysin VT-like [Pelodiscus sinensis]</Hit_def>
+  <Hit_accession>XP_006139280</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>7.51152e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MPKISLPVHFLCLLALSSACYIQNCPRGGKRALPDTEIRQCMPCGPGNRGNCFGPNICCGEELGCYVGTSETLRCLEENYLPSPCEAGGKAC-SSGGRCAAPGVCCNDEGCTMDTIC</Hsp_hseq>
+      <Hsp_midline>M    L +  LCL+  + ACYIQNCP GGKR++ DT++RQC+PCGP +RG CFGP ICCG ++GCYVGT+ETL C  ENYLPSPCE  G+ C S  G+CA+PG+CC+DE C +D +C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|586488839|ref|XP_006874894.1|</Hit_id>
+  <Hit_def>PREDICTED: vasopressin-neurophysin 2-copeptin [Chrysochloris asiatica]</Hit_def>
+  <Hit_accession>XP_006874894</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>7.94257e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRT</Hsp_qseq>
+      <Hsp_hseq>MPDTTLPICFLGLLALTSACYFQNCPRGGKRAMSDMELRQCLPCGPGGKGRCFGPSICCGDELGCFVGTAEALRCQEENYLPSPCQSGQKPCGSG-GRCAAPGICCYEESCVTEPECQVGT</Hsp_hseq>
+      <Hsp_midline>M    L +C L L+  T ACY QNCP GGKR++ D ++RQCLPCGP  +GRCFGP ICCG ++GC+VGTAE L C+ ENYLPSPC+   +PCGS  G+CA+PGICC +ESC  +P C V T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|642124638|emb|CDQ62066.1|</Hit_id>
+  <Hit_def>unnamed protein product [Oncorhynchus mykiss]</Hit_def>
+  <Hit_accession>CDQ62066</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>8.71688e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MTGAAVSVCLLYVLSVCSACYISNCPIGGKRSIMDAPQRKCMSCGPGEQGRCFGPSICCGEDVGCWMGSPETAHCMEENYLPTPCQVGGRPCGSDTARCASPGVCCDSEGCSADQSC</Hsp_hseq>
+      <Hsp_midline>M  A +++CLL ++    ACYI NCP+GGKRSIMD   R+C+ CGP ++GRCFGP ICCG D+GC++G+ ET  C  ENYLP+PC+  GRPCGS+  +CASPG+CCD E C+ D  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|929280847|ref|XP_014017315.1|</Hit_id>
+  <Hit_def>PREDICTED: isotocin-neurophysin IT 2-like [Salmo salar]</Hit_def>
+  <Hit_accession>XP_014017315</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>9.17076e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>MTGAAVSLCLFFLMSFCSACYISNCPIGGKRSIMDSPQRKCMLCGPGEQGRCFGPSICCGEGLGCWMGSPETARCMEENYLSTPCQAGGRPCGSEAGRCAAPGICCDSEGCSADQSC</Hsp_hseq>
+      <Hsp_midline>M  A ++LCL  L+ F  ACYI NCP+GGKRSIMD+  R+C+ CGP ++GRCFGP ICCG  +GC++G+ ET  C  ENYL +PC+  GRPCGSE G+CA+PGICCD E C+ D  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|2696871|dbj|BAA24026.1|</Hit_id>
+  <Hit_def>prepro-vasotocin [Neoceratodus forsteri]</Hit_def>
+  <Hit_accession>BAA24026</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>9.86845e-42</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>FTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>FSSACYIQNCPRGGKRSFIDTEIRQCIPCGPQNRGRCFGPYICCGEELGCYIGTSETLRCLEENYLSSPCKAGGKLCSTNGGQCAAPGICCTDESCAMDSSC</Hsp_hseq>
+      <Hsp_midline>F+ ACYIQNCP GGKRS +DT++RQC+PCGP +RGRCFGP ICCG ++GCY+GT+ETL C  ENYL SPC+  G+ C +  G+CA+PGICC DESCA+D  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|532069510|ref|XP_005320590.1|</Hit_id>
+  <Hit_def>PREDICTED: oxytocin-neurophysin 1 [Ictidomys tridecemlineatus]</Hit_def>
+  <Hit_accession>XP_005320590</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.1363e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MHSACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMCNVRTTFSS</Hsp_qseq>
+      <Hsp_hseq>MASLSLPCCLLGLLALTSACYIQNCPLGGKRAVLELDVRKCLPCGPGGQGRCFGPSICCGDELGCFVGTAEALRCQEENYLPSPCQSGQKPCGS-GGRCAAAGFCCSSDGCRTDPACDPETNFSE</Hsp_hseq>
+      <Hsp_midline>M S  L  CLL L+  T ACYIQNCPLGGKR++++  +R+CLPCGP  +GRCFGP ICCG ++GC+VGTAE L C+ ENYLPSPC+   +PCGS  G+CA+ G CC  + C  DP C+  T FS </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|128109|sp|P08163.1|NEUV_BUFJA</Hit_id>
+  <Hit_def>RecName: Full=Vasotocin-neurophysin VT; Short=VT; Contains: RecName: Full=Hydrin-2; AltName: Full=Hydrin II; Contains: RecName: Full=Vasotocin; Contains: RecName: Full=Neurophysin VT; Contains: RecName: Full=Glycoprotein; Flags: Precursor &gt;gi|211037|gb|AAA48556.1| vasotocin precursor, partial [Bufo japonicus]</Hit_def>
+  <Hit_accession>P08163</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>1.37111e-41</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>SACLALCLLCLVPFTMACYIQNCPLGGKRSIMDTQMRQCLPCGPDDRGRCFGPRICCGRDIGCYVGTAETLGCRGENYLPSPCEPAGRPCGSERGKCASPGICCDDESCAVDPMC</Hsp_qseq>
+      <Hsp_hseq>TAPVPACFLCLLALSSACYIQNCPRGGKRSYPDTAVRQCIPCGPGNRGNCFGPNICCGEDLGCYVGTPETLRCVEETYLPSPCEAGGKPCSSG-GRCAAPGVCCSDDTCVVDSSC</Hsp_hseq>
+      <Hsp_midline>+A +  C LCL+  + ACYIQNCP GGKRS  DT +RQC+PCGP +RG CFGP ICCG D+GCYVGT ETL C  E YLPSPCE  G+PC S  G+CA+PG+CC D++C VD  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>85563261</Statistics_db-num>
+      <Statistics_db-len>1282053305</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
