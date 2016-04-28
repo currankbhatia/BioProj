@@ -59,15 +59,15 @@ my_file.close()
 print '\n';
 
 #goes through the fasta format to look through all fasta files (helpful if scraping a database and find multiple entries under one query)
-record_iterator = SeqIO.parse("oxt.fasta", "fasta")
+# record_iterator = SeqIO.parse("oxt.fasta", "fasta")
 
-first_record = next(record_iterator)
-print(first_record.id)
-print(first_record.description)
-print(repr(first_record.seq))
+# first_record = next(record_iterator)
+# print(first_record.id)
+# print(first_record.description)
+# print(repr(first_record.seq))
 
-rec_iterator = SeqIO.parse("oxt.fasta", "fasta", generic_dna)
-oxt_dict = SeqIO.to_dict(rec_iterator, get_accession_num)
+# rec_iterator = SeqIO.parse("oxt.fasta", "fasta", generic_dna)
+# oxt_dict = SeqIO.to_dict(rec_iterator, get_accession_num)
 
 # for id_num in oxt_dict:
 #     print('id number: %s' % id_num)
