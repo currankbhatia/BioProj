@@ -28,6 +28,7 @@ from Bio.Blast import NCBIXML
 # - how to do error checking on efetch paramters
 # - properly parsing fasta file and paramters for qblast algorithm
 # - how to parse through the xml file to extract individual species comparisons
+# - use parse or read to go through xml file from blast search
 
 def fetch(database, ids):
 	return Entrez.efetch(db = database, id=ids, rettype ="fasta")
@@ -43,7 +44,7 @@ def retrieve_fasta(db):
 			return 0
 
 	if(db == 'n'):
-		nucleotide = raw_input("Enter a gene id for a nucleotide")
+		nucleotide = raw_input("Enter a nucleotide id ")
 		try:
 			fetched = fetch("nucleotide", nucleotide)
 			return fetched
@@ -64,15 +65,24 @@ def blast(db, sequence):
 
 	print('Doing the BLAST and retrieving the results...')
 	# only need to input the pure sequence, but how to determine which databases to compare against?
+
+	#determine what the blast algorithm is going to search through - which data bases and which blasts
+	dataset = 'blastp'
+	base = 'nr'
+	if(db == 'n'):
+		dataset = 'blastn'
+		base = 'nt'
+
 	try:
-		result_handle = NCBIWWW.qblast('blastp', 'nr', sequence)
+		result_handle = NCBIWWW.qblast(dataset, base, sequence)
 		save = open("my_blast.xml","w")
-		save.write(hand.read())
+		save.write(result_handle.read())
 		save.close()
-		hand.close()
+		result_handle.close()
 		return result_handle
 	except:
-		print "oops"
+		print "Something went wrong while trying to run the blast algorithm"
+		return -1
 
 # main
 # 1
@@ -88,28 +98,39 @@ while(db != 'p') and (db != 'n'):
 
 fetched = retrieve_fasta(db)
 
+# print sequence information
 for seq_record in SeqIO.parse(fetched,"fasta"):
 	print(seq_record.id)
 	print(repr(seq_record.seq))
 	print(len(seq_record))
+	# get the sequence
 	test = Seq.Seq(str(seq_record.seq), IUPAC.unambiguous_dna)
 
 # my_file = open("example_fasta.fasta", "w")
 # my_file.write(str(test))
 
 # if returned a valid entry in the database
+
 if fetched != 0:
 	print(fetched.read())
 
 	print "trying blast"
-	result_handle = NCBIWWW.qblast('blastp', 'nr', test)
-	save = open("my_blast.xml","w")
-	save.write(result_handle.read())
-	save.close()
-	result_handle.close()
-	print "going to helper method"
+
 	hand = blast(db,test)
 
-	print "done blasting"
+	# valid blast search
+	print "Done blasting! Parsing through results..."
+	if hand != -1:
+		hand = open("my_blast.xml")
+		blast_record = NCBIXML.read(hand)
+
+		E_VALUE_THRESH = 0.04
+
+		for alignment in blast_record.alignments:
+			for hsp in alignment.hsps:
+				print "sup"
+
+
+	print "Here are your results"
 
 # result_handle = NCBIWWW.qblast("blastn","nt",example_fasta)
