@@ -1,3 +1,7 @@
+
+from ete3 import Tree
+#from ete2.treeview import drawer
+
 def printMatrix (Matrix, rowStrNum):
 
 	for i in range(0, rowStrNum): 
@@ -95,6 +99,9 @@ matrix2CSV( sM, "similarityMatrix.csv")
 
 print score
 
+
+t = Tree( "((a,b),c);" )
+t.show()
 
 
 
