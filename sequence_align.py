@@ -1,7 +1,3 @@
-
-
-
-
 def printMatrix (Matrix, rowStrNum):
 
 	for i in range(0, rowStrNum): 
@@ -69,7 +65,7 @@ def similarityMatrix(stringArray):
 	return Matrix
 	
 def getSimilarity(similarityMatrix, strIdx1, strIdx2):
-        dim = len(similarityMatrix)
+        dim = len(similarityMatrix[0])
         if(strIdx1 >= dim | strIdx2 >= dim): return 0
         if(strIdx2 == strIdx1): return 0
         if(strIdx2 < strIdx1):
@@ -78,6 +74,15 @@ def getSimilarity(similarityMatrix, strIdx1, strIdx2):
             strIdx2 = temp
         return - similarityMatrix[strIdx1][strIdx2]
 
+import csv
+def matrix2CSV( matrix, filePath ):
+    with open(filePath, 'a') as outcsv:
+        #configure writer to write standard csv file
+        writer = csv.writer(outcsv, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL, lineterminator='\n')
+        # for item in list:
+        for i  in range(0, len(matrix[0])):
+            #Write item to outcsv
+            writer.writerow( matrix[i] )
 
 
 
@@ -86,6 +91,7 @@ stringArray = ["CGTGAATTCAT", "GACTTAC", "GATAGCTACTTAC", "GACCCTTTATAC", "GACTT
 sM = similarityMatrix(stringArray)
 
 score = getSimilarity( sM , 2, 3)
+matrix2CSV( sM, "similarityMatrix.csv")
 
 print score
 
