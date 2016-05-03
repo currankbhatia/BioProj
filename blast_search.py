@@ -107,8 +107,8 @@ def parseXML():
 				queries.write('sequence: ' + str(alignment.title) + '\n')
 				queries.write('e value:' + str(hsp.expect) + '\n')
 				queries.write(hsp.query[0:75]+ '...' + '\n')
-				queries.write(hsp.match[0:75]+ '...' + '\n')
-				compSequences.append(hsp.match)
+				queries.write(hsp.sbjct[0:75]+ '...' + '\n')
+				compSequences.append(hsp.sbjct)
 				d+=1
 
 	queries.close()
