@@ -84,6 +84,38 @@ def blast(db, sequence):
 		print "Something went wrong while trying to run the blast algorithm"
 		return -1
 
+def parseXML():
+	hand = open("my_blast.xml")
+	blast_record = NCBIXML.read(hand)
+
+	queries = open("queries.txt","w")
+
+	E_VALUE_THRESH = 0.04
+
+	print "Here are some results"
+
+	d=0
+
+	compSequences = []
+
+	for alignment in blast_record.alignments:
+		for hsp in alignment.hsps:
+			if(d>=5):
+				break
+			if hsp.expect < E_VALUE_THRESH:
+				queries.write("Alignment"+'\n')
+				queries.write('sequence: ' + str(alignment.title) + '\n')
+				queries.write('e value:' + str(hsp.expect) + '\n')
+				queries.write(hsp.query[0:75]+ '...' + '\n')
+				queries.write(hsp.match[0:75]+ '...' + '\n')
+				compSequences.append(hsp.match)
+				d+=1
+
+	queries.close()
+	print compSequences[0]
+
+	return compSequences
+
 # main
 # 1
 Entrez.email = "sabaimran48@gmail.com"
@@ -119,18 +151,14 @@ if fetched != 0:
 	hand = blast(db,test)
 
 	# valid blast search
-	print "Done blasting! Parsing through results..."
+	
 	if hand != -1:
-		hand = open("my_blast.xml")
-		blast_record = NCBIXML.read(hand)
+		print "Done blasting! Parsing through results..."
+		queries = parseXML()
+		print "Here are your results"
+	else:
+		print "Sorry, looks like that didn't work."
 
-		E_VALUE_THRESH = 0.04
-
-		for alignment in blast_record.alignments:
-			for hsp in alignment.hsps:
-				print "sup"
-
-
-	print "Here are your results"
+	
 
 # result_handle = NCBIWWW.qblast("blastn","nt",example_fasta)
