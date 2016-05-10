@@ -89,6 +89,50 @@ def matrix2CSV( matrix, filePath ):
             writer.writerow( matrix[i] )
 
 
+def matrixToNewick(matrix):
+	hasFinished = 0
+	newick = ""
+	#newickArray = []
+	newickArray = [0 for x in range(len(matrix))]
+	idx = 0
+	while(!hasFinished)
+
+		currMin = 0
+		dist =0
+		tempI = 0
+		tempJ = 0
+		for i in range(0, len(matrix)): 
+			for j in range(i+1, len(matrix[0])):
+				if(currMin ==0 || matrix[i][j] < currMin)
+					currMin == matrix[i][j] 
+					dist = currMin/2
+					tempI = i
+					tempJ = j
+		newMatrix = [[0 for x in range(len(matrix)-1)] for y in range(len(matrix[0])-1)]
+		if(len(newMatrix) == 0)
+			hasFinished = 0;
+		
+		newickArray[idx] = ["(%d:%d,%d:%d)",tempI,dist,tempJ,dist]
+		idx+=1
+		if(idx != 1)
+			newick += "(%s,%d:%d)",newickArray[idx-1],tempJ,dist-prevDist
+		else	
+			newick += "%s",newickArray[idx-1]
+		prevDist = dist
+		for i in range(0, len(matrix)): 
+			for j in range(i+1, len(matrix[0])):
+				if(i == tempI)
+					i++;
+				if(j==tempJ)
+					j++;
+				newMatrix[i][j] = matrix[i][j]
+		matrix = newMatrix
+
+	
+
+	newick+= ";"
+
+
 
 stringArray = ["CGTGAATTCAT", "GACTTAC", "GATAGCTACTTAC", "GACCCTTTATAC", "GACTTGGGAC"]
 
