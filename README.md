@@ -1,6 +1,11 @@
 # CS466 Class Project
 Bioinformatics Class Project
 
+
+Before running, run these two commands on commandline:
+export PATH=~/anaconda_ete/bin:$PATH
+if not already: conda install -c anaconda biopython=1.66
+
 Some important places for reference are: 
 http://geneontology.org/
 http://www.ncbi.nlm.nih.gov/gene

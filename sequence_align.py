@@ -1,9 +1,32 @@
 
+import os
+import sys
+import subprocess
+import urllib2
+
+from Bio import Entrez
+from Bio import SeqIO
+from Bio import Seq
+from Bio.SeqRecord import SeqRecord
+from Bio.SeqUtils import GC
+from Bio.Alphabet import Gapped, IUPAC
+from Bio.Alphabet import generic_nucleotide
+
+from Bio.Align.Applications import ClustalwCommandline
+from Bio import AlignIO
+from Bio.Align import AlignInfo
+from Bio.SubsMat import FreqTable
+from Bio.Blast import NCBIWWW
+from Bio.Blast import NCBIXML
+
+
 from ete3 import Tree, TreeStyle
 #from ete2.treeview import drawer
 # remember to activate Anaconda before using ete
 #with : export PATH=~/anaconda_ete/bin:$PATH
 from upgma import properRun
+
+from blast_search import parseXML
 
 def printMatrix (Matrix, rowStrNum):
 
@@ -148,7 +171,8 @@ def invertNumMat(mat):
 
 def actualRun():
 
-	stringArray = ["CGTGAATTCAT", "GACTTAC", "GATAGCTACTTAC", "GACCCTTTATAC", "GACTTGGGAC"]
+	#stringArray = ["CGTGAATTCAT", "GACTTAC", "GATAGCTACTTAC", "GACCCTTTATAC", "GACTTGGGAC"]
+	stringArray = parseXML()
 
 	sM = similarityMatrix(stringArray)
 	printMatrix(sM, len(stringArray))

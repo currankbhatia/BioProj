@@ -118,46 +118,47 @@ def parseXML():
 
 # main
 # 1
-Entrez.email = "sabaimran48@gmail.com"
+def runcode():
+	Entrez.email = "sabaimran48@gmail.com"
 
-print("Welcome to the tree maker! Please input a gene id that you would like to see compared across species.")
+	print("Welcome to the tree maker! Please input a gene id that you would like to see compared across species.")
 
-fetched = ''
-db = 'k'
-valid = 0
-while(db != 'p') and (db != 'n'):
-	db = get_database()
+	fetched = ''
+	db = 'k'
+	valid = 0
+	while(db != 'p') and (db != 'n'):
+		db = get_database()
 
-fetched = retrieve_fasta(db)
+	fetched = retrieve_fasta(db)
 
-# print sequence information
-for seq_record in SeqIO.parse(fetched,"fasta"):
-	print(seq_record.id)
-	print(repr(seq_record.seq))
-	print(len(seq_record))
-	# get the sequence
-	test = Seq.Seq(str(seq_record.seq), IUPAC.unambiguous_dna)
+	# print sequence information
+	for seq_record in SeqIO.parse(fetched,"fasta"):
+		print(seq_record.id)
+		print(repr(seq_record.seq))
+		print(len(seq_record))
+		# get the sequence
+		test = Seq.Seq(str(seq_record.seq), IUPAC.unambiguous_dna)
 
-# my_file = open("example_fasta.fasta", "w")
-# my_file.write(str(test))
+	# my_file = open("example_fasta.fasta", "w")
+	# my_file.write(str(test))
 
-# if returned a valid entry in the database
+	# if returned a valid entry in the database
 
-if fetched != 0:
-	print(fetched.read())
+	if fetched != 0:
+		print(fetched.read())
 
-	print "trying blast"
+		print "trying blast"
 
-	hand = blast(db,test)
+		hand = blast(db,test)
 
-	# valid blast search
-	
-	if hand != -1:
-		print "Done blasting! Parsing through results..."
-		queries = parseXML()
-		print "Here are your results"
-	else:
-		print "Sorry, looks like that didn't work."
+		# valid blast search
+		
+		if hand != -1:
+			print "Done blasting! Parsing through results..."
+			queries = parseXML()
+			print "Here are your results"
+		else:
+			print "Sorry, looks like that didn't work."
 
 	
 
