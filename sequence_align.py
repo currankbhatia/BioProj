@@ -1,6 +1,9 @@
 
-from ete3 import Tree
+from ete3 import Tree, TreeStyle
 #from ete2.treeview import drawer
+# remember to activate Anaconda before using ete
+#with : export PATH=~/anaconda_ete/bin:$PATH
+from upgma import properRun
 
 def printMatrix (Matrix, rowStrNum):
 
@@ -64,7 +67,7 @@ def similarityMatrix(stringArray):
 				Matrix[i][j] = maxScore(stringArray[i], stringArray[j])
 
 
-	printMatrix(Matrix, len(stringArray))
+	#printMatrix(Matrix, len(stringArray))
 
 	return Matrix
 	
@@ -78,74 +81,109 @@ def getSimilarity(similarityMatrix, strIdx1, strIdx2):
             strIdx2 = temp
         return - similarityMatrix[strIdx1][strIdx2]
 
-import csv
-def matrix2CSV( matrix, filePath ):
-    with open(filePath, 'a') as outcsv:
-        #configure writer to write standard csv file
-        writer = csv.writer(outcsv, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL, lineterminator='\n')
-        # for item in list:
-        for i  in range(0, len(matrix[0])):
-            #Write item to outcsv
-            writer.writerow( matrix[i] )
 
 
-def matrixToNewick(matrix):
-	hasFinished = 0
-	newick = ""
-	#newickArray = []
-	newickArray = [0 for x in range(len(matrix))]
-	idx = 0
-	while(!hasFinished)
+def runcode():
 
-		currMin = 0
-		dist =0
-		tempI = 0
-		tempJ = 0
-		for i in range(0, len(matrix)): 
-			for j in range(i+1, len(matrix[0])):
-				if(currMin ==0 || matrix[i][j] < currMin)
-					currMin == matrix[i][j] 
-					dist = currMin/2
-					tempI = i
-					tempJ = j
-		newMatrix = [[0 for x in range(len(matrix)-1)] for y in range(len(matrix[0])-1)]
-		if(len(newMatrix) == 0)
-			hasFinished = 0;
-		
-		newickArray[idx] = ["(%d:%d,%d:%d)",tempI,dist,tempJ,dist]
-		idx+=1
-		if(idx != 1)
-			newick += "(%s,%d:%d)",newickArray[idx-1],tempJ,dist-prevDist
-		else	
-			newick += "%s",newickArray[idx-1]
-		prevDist = dist
-		for i in range(0, len(matrix)): 
-			for j in range(i+1, len(matrix[0])):
-				if(i == tempI)
-					i++;
-				if(j==tempJ)
-					j++;
-				newMatrix[i][j] = matrix[i][j]
-		matrix = newMatrix
+	stringArray = ["CGTGAATTCAT", "GACTTAC", "GATAGCTACTTAC", "GACCCTTTATAC", "GACTTGGGAC"]
 
+	sM = similarityMatrix(stringArray)
+
+	score = getSimilarity( sM , 2, 3)
+	#matrix2CSV( sM, "similarityMatrix.csv")
+
+	print score
+
+
+	#t = Tree( "((a,b),c);" )
+	#t = Tree("(Bovine:0.69395,(Gibbon:0.36079,(Orang:0.33636,(Gorilla:0.17147,(Chimp:0.19268, Human:0.11927):0.08386):0.06124):0.15057):0.54939,Mouse:1.21460):0.10;")
+	ourStr = mytest()
+	ourStr += ";"
 	
+	t = Tree(ourStr)
+	ts = TreeStyle()
+	ts.show_leaf_name = True
+	ts.show_branch_length = True
+	#ts.show_branch_support = True
+	t.show(tree_style=ts)
 
-	newick+= ";"
+	#t.show()
+
+def wholeMat(mat):
+
+	for i in range(0, len(mat)): 
+			for j in range(i+1, len(mat)):
+
+				mat[j][i] = mat[i][j]
+
+	return mat
+
+def invertNumMat(mat): 
+
+
+	#find largest number
+	maxScore = 0
+
+	for i in range(0, len(mat)): 
+		for j in range(0, len(mat)):
+
+			if (mat[i][j] > maxScore):
+				maxScore = mat[i][j]
+
+	# take largest number and subtract diff and multiply by 2 and add it the number
+	for i in range(0, len(mat)): 
+		for j in range(0, len(mat)):
+
+			if not mat[i][j] == 0 or mat[i][j] == maxScore:
+				# do nothing 
+				#do nothing
+			
+				diff = maxScore - mat[i][j]
+				mat[i][j] += (2*diff)
 
 
 
-stringArray = ["CGTGAATTCAT", "GACTTAC", "GATAGCTACTTAC", "GACCCTTTATAC", "GACTTGGGAC"]
-
-sM = similarityMatrix(stringArray)
-
-score = getSimilarity( sM , 2, 3)
-matrix2CSV( sM, "similarityMatrix.csv")
-
-print score
+	return mat
 
 
-t = Tree( "((a,b),c);" )
-t.show()
+def actualRun():
+
+	stringArray = ["CGTGAATTCAT", "GACTTAC", "GATAGCTACTTAC", "GACCCTTTATAC", "GACTTGGGAC"]
+
+	sM = similarityMatrix(stringArray)
+	printMatrix(sM, len(stringArray))
+	fullMat = wholeMat(sM)
+	printMatrix(fullMat, len(stringArray))
+	score = getSimilarity( sM , 2, 3)
+	print score
+
+	mat = invertNumMat(fullMat)
+	printMatrix(mat, len(stringArray))
+
+	items = len(stringArray)
+
+	print items
+
+	ourStr = properRun(mat, items)
+	ourStr += ";"
+	
+	t = Tree(ourStr)
+	ts = TreeStyle()
+	ts.show_leaf_name = True
+	ts.show_branch_length = True
+	#ts.show_branch_support = True
+	t.show(tree_style=ts)
+
+	#t.show()
+
+
+
+#mat = [[0,1,2,2,2], [1,0,2,2,2], [2, 2, 0, 1.2, 1.6], [2, 2, 1.2, 0, 1.6], [2, 2, 1.6, 1.6, 0]]
+#printMatrix(mat, 5)
+#print matrixToNewick(mat)
+
+
+actualRun()
 
 
 
