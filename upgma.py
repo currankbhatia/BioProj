@@ -134,10 +134,10 @@ def mytest():
 def properRun(matr, rowNum):
 
     species = []
-    for i in range (1, rowNum+1):
+    for i in range (0, rowNum):
         species.append(str(i))
 
-    print ''.join(species)    
+    #print ''.join(species)    
 
     clu = make_clusters(species)
     tree = regroup(clu, matr)

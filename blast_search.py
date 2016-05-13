@@ -18,6 +18,8 @@ from Bio.SubsMat import FreqTable
 from Bio.Blast import NCBIWWW
 from Bio.Blast import NCBIXML
 
+import time
+
 # information flow:
 # 1) read input of gene id's, use Entrez to fetch the fasta files
 # 2) run the output fasta file through blast to do comparisons across different species
@@ -84,7 +86,7 @@ def blast(db, sequence):
 		print "Something went wrong while trying to run the blast algorithm"
 		return -1
 
-def parseXML():
+def parseXML(nameArray):
 	hand = open("my_blast.xml")
 	blast_record = NCBIXML.read(hand)
 
@@ -98,6 +100,8 @@ def parseXML():
 
 	compSequences = []
 
+
+
 	for alignment in blast_record.alignments:
 		for hsp in alignment.hsps:
 			if(d>=5):
@@ -109,6 +113,9 @@ def parseXML():
 				queries.write(hsp.query[0:75]+ '...' + '\n')
 				queries.write(hsp.sbjct[0:75]+ '...' + '\n')
 				compSequences.append(hsp.sbjct)
+
+				nameArray.append(str(alignment.title))
+
 				d+=1
 
 	queries.close()
@@ -152,14 +159,17 @@ def runcode():
 		hand = blast(db,test)
 
 		# valid blast search
-		
+		array = []
+
 		if hand != -1:
 			print "Done blasting! Parsing through results..."
-			queries = parseXML()
+			queries = parseXML(array)
 			print "Here are your results"
 		else:
 			print "Sorry, looks like that didn't work."
 
 	
+
+
 
 # result_handle = NCBIWWW.qblast("blastn","nt",example_fasta)

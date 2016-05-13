@@ -19,6 +19,8 @@ from Bio.SubsMat import FreqTable
 from Bio.Blast import NCBIWWW
 from Bio.Blast import NCBIXML
 
+import time
+
 
 from ete3 import Tree, TreeStyle
 #from ete2.treeview import drawer
@@ -170,23 +172,28 @@ def invertNumMat(mat):
 
 
 def actualRun():
-
+	start = time.time()
 	#stringArray = ["CGTGAATTCAT", "GACTTAC", "GATAGCTACTTAC", "GACCCTTTATAC", "GACTTGGGAC"]
-	stringArray = parseXML()
+	nameArray = []
+
+	stringArray = parseXML(nameArray)
+
+	for i in range (0, len(nameArray)):
+		print "{}:{}".format(i, nameArray[i])
 
 	sM = similarityMatrix(stringArray)
-	printMatrix(sM, len(stringArray))
+	#printMatrix(sM, len(stringArray))
 	fullMat = wholeMat(sM)
-	printMatrix(fullMat, len(stringArray))
-	score = getSimilarity( sM , 2, 3)
-	print score
+	#printMatrix(fullMat, len(stringArray))
+	#score = getSimilarity( sM , 2, 3)
+	#print score
 
 	mat = invertNumMat(fullMat)
 	printMatrix(mat, len(stringArray))
 
 	items = len(stringArray)
 
-	print items
+	#print items
 
 	ourStr = properRun(mat, items)
 	ourStr += ";"
@@ -196,7 +203,10 @@ def actualRun():
 	ts.show_leaf_name = True
 	ts.show_branch_length = True
 	#ts.show_branch_support = True
+	end = time.time()
+	print "time: {}".format(end - start)
 	t.show(tree_style=ts)
+	
 
 	#t.show()
 
@@ -207,7 +217,9 @@ def actualRun():
 #print matrixToNewick(mat)
 
 
-actualRun()
+#actualRun()
+
+
 
 
 
