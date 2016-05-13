@@ -2,15 +2,21 @@
 Phylogenetic Trees via BLAST and Smith-Waterman
 
 Installation instructions:
+
 Install Python if needed
+
 Install Biopython
+
 Install Ete http://etetoolkit.org/download/
+
 Install Biopython for anaconda: install -c anaconda biopython=1.66
 
 
 Run Instructions:
+
 Set Path by doing:
 	export PATH=~/anaconda_ete/bin:$PATH
+
 To Run: 
 	python runner.py
 
