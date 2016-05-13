@@ -114,7 +114,11 @@ def parseXML(nameArray):
 				queries.write(hsp.sbjct[0:75]+ '...' + '\n')
 				compSequences.append(hsp.sbjct)
 
-				nameArray.append(str(alignment.title))
+				addStr = str(alignment.title)
+				addStr += " \nalign length:"
+				addStr += "{}".format(alignment.length)
+
+				nameArray.append(addStr)
 
 				d+=1
 
@@ -128,13 +132,15 @@ def parseXML(nameArray):
 def runcode():
 	Entrez.email = "sabaimran48@gmail.com"
 
-	print("Welcome to the tree maker! Please input a gene id that you would like to see compared across species.")
+	print("Welcome to the tree maker! Please input a protein id that you would like to see compared across species.")
 
 	fetched = ''
-	db = 'k'
-	valid = 0
-	while(db != 'p') and (db != 'n'):
-		db = get_database()
+	#db = 'k'
+	#valid = 0
+	#while(db != 'p') and (db != 'n'):
+	#	db = get_database()
+
+	db = 'p'
 
 	fetched = retrieve_fasta(db)
 

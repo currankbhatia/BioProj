@@ -43,6 +43,7 @@ def maxScore (colStr, rowStr):
 	colStrNum = 1 + len(colStr)
 	rowStrNum = 1 + len(rowStr)
 
+
 	Matrix = [[0 for x in range(colStrNum)] for y in range(rowStrNum)]
 
 	for i in range(0, rowStrNum): 
@@ -86,8 +87,15 @@ def maxScore (colStr, rowStr):
 def similarityMatrix(stringArray):
 	Matrix = [[0 for x in range(len(stringArray))] for y in range(len(stringArray))]
 
+	
+
+
 	for i in range(0, len(stringArray)): 
 			for j in range(i+1, len(stringArray)):
+
+				#print "The alignment length of i is: {}".format(len(stringArray[i]))
+				#print "The alignment length of j is: {}".format(len(stringArray[j]))
+
 
 				Matrix[i][j] = maxScore(stringArray[i], stringArray[j])
 

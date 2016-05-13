@@ -146,7 +146,7 @@ def properRun(matr, rowNum):
     betterprint(tree, tree.height)
     theStrString = ''.join(theStr)
 
-    print "5 {} 6".format(theStrString)
+    print "{}".format(theStrString)
     return theStrString
 
 
